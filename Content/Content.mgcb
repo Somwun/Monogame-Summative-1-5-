@@ -25,6 +25,25 @@
 /processorParam:TextureFormat=Color
 /build:../../../Downloads/DemonCacoOld.png;DemonCacoOld.png
 
+#begin 03 - At Dooms Gate [Live].wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:03 - At Dooms Gate [Live].wav
+
+#begin 57. Doom Eternal.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:57. Doom Eternal.wav
+
+#begin Boo.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Boo.spritefont
+
 #begin DemonCacoNew.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -85,6 +104,18 @@
 /processorParam:TextureFormat=Color
 /build:DoomGuyOld.png
 
+#begin DoomIntro.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:DoomIntro.png
+
 #begin DoomLevelNew.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -109,9 +140,39 @@
 /processorParam:TextureFormat=Color
 /build:DoomLevelOld.gif
 
+#begin OldDoomIntro.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:OldDoomIntro.png
+
 #begin ScreamReverbEffect.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
 /build:ScreamReverbEffect.wav
+
+#begin short-crowd-cheer-6713.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:short-crowd-cheer-6713.wav
+
+#begin TheEnd.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TheEnd.png
 
